@@ -1,0 +1,114 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Truck Logistics Georgia",
+    "tagline": "Any Route. Any Complexity. One Standard.",
+    "description": "High-standard, multi-profile logistics & construction company operating across local and international markets.",
+    "cta": "Explore Our Services",
+    "ctaSecondary": "Get in Touch"
+  },
+  "home": {
+    "servicesPreviewTitle": "What We Do",
+    "servicesPreviewSubtitle": "Comprehensive logistics solutions tailored to your needs",
+    "viewAllServices": "View All Services",
+    "aboutPreviewTitle": "Who We Are",
+    "aboutPreviewText": "Truck Logistics Georgia is a high-standard, multi-profile company operating in the fields of logistics and construction across both local and international markets. We provide end-to-end management of logistics chains of any complexity.",
+    "learnMore": "Learn More About Us",
+    "ctaBannerTitle": "Ready to Ship?",
+    "ctaBannerText": "Let us handle your logistics with precision and reliability.",
+    "ctaBannerButton": "Get in Touch",
+    "statsRoutes": "Routes Managed",
+    "statsCountries": "Countries Served",
+    "statsYears": "Years of Excellence",
+    "statsClients": "Happy Clients"
+  },
+  "about": {
+    "pageTitle": "About Us",
+    "breadcrumbHome": "Home",
+    "intro": "Truck Logistics Georgia is a high-standard, multi-profile company operating in the fields of logistics and construction across both local and international markets.",
+    "description": "We provide end-to-end management of logistics chains of any complexity, covering land, air, and rail transportation, while maintaining the highest standards of efficiency and reliability.",
+    "bodybuilding": "In close cooperation with partner companies, we also carry out vehicle body-building works tailored to specific customer requirements, enabling us to deliver fully customized and innovative solutions.",
+    "mission": "Any Route. Any Complexity. One Standard.",
+    "strength1Title": "International & Local Operations",
+    "strength1Text": "Operating across both local and international markets with consistent quality standards.",
+    "strength2Title": "Full Logistics Chain",
+    "strength2Text": "End-to-end management of logistics chains covering land, air, and rail transportation.",
+    "strength3Title": "Custom Vehicle Body-Building",
+    "strength3Text": "Tailored vehicle body-building solutions in cooperation with partner companies.",
+    "strength4Title": "Construction Projects",
+    "strength4Text": "Efficient and high-quality solutions in infrastructure and industrial sectors.",
+    "whyUsTitle": "Why Choose Us",
+    "why1": "Professional and experienced team",
+    "why2": "End-to-end logistics management",
+    "why3": "Highest standards of reliability & efficiency",
+    "why4": "Fully customized and innovative solutions",
+    "why5": "Local expertise with international reach"
+  },
+  "services": {
+    "pageTitle": "Our Services",
+    "breadcrumbHome": "Home",
+    "subtitle": "Comprehensive logistics and construction solutions",
+    "land": {
+      "title": "Land Transportation",
+      "description": "We provide fast and secure land transportation across regional and international routes, with optimized logistics and full operational control."
+    },
+    "air": {
+      "title": "Air Freight",
+      "description": "We offer time-sensitive air freight solutions, ensuring fast and efficient delivery to any destination worldwide."
+    },
+    "sea": {
+      "title": "Sea Freight",
+      "description": "We manage comprehensive sea freight operations, offering cost-effective solutions for large-volume cargo transportation."
+    },
+    "rail": {
+      "title": "Rail Transportation",
+      "description": "We deliver reliable and stable rail transport services, ideal for long-distance and high-volume cargo shipments."
+    },
+    "truck": {
+      "title": "Truck Import & Export",
+      "description": "We handle the import and export of trucks, along with professional driver services to ensure smooth and efficient transportation processes."
+    },
+    "bodybuilding": {
+      "title": "Vehicle Body-Building",
+      "description": "In cooperation with partner companies, we provide customized vehicle body-building solutions tailored to specific client requirements."
+    },
+    "construction": {
+      "title": "Construction Projects",
+      "description": "We participate in construction projects of various scales, delivering efficient and high-quality solutions in infrastructure and industrial sectors."
+    },
+    "ctaTitle": "Need a Custom Logistics Solution?",
+    "ctaText": "Our team is ready to design a tailored approach for your specific requirements.",
+    "ctaButton": "Contact Us Today"
+  },
+  "contact": {
+    "pageTitle": "Contact Us",
+    "breadcrumbHome": "Home",
+    "subtitle": "Get in touch with our team",
+    "formName": "Full Name",
+    "formEmail": "Email Address",
+    "formPhone": "Phone Number",
+    "formSubject": "Subject",
+    "formMessage": "Your Message",
+    "formSubmit": "Send Message",
+    "formSuccess": "Thank you! Your message has been sent.",
+    "infoTitle": "Contact Information",
+    "infoSubtitle": "We'd love to hear from you",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "addressValue": "1 Viktor Nozadze Street, Tbilisi, Georgia",
+    "mapTitle": "Find Us"
+  },
+  "footer": {
+    "tagline": "Any Route. Any Complexity. One Standard.",
+    "quickLinks": "Quick Links",
+    "contactInfo": "Contact Info",
+    "followUs": "Follow Us",
+    "copyright": "© 2026 Truck Logistics Georgia. All rights reserved."
+  }
+}
