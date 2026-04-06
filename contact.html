@@ -51,7 +51,7 @@
   }
   </script>
 
-  <link rel="icon" type="image/jpeg" href="/logo.jpeg">
+  <link rel="icon" type="image/jpeg" href="/logo.jpeg?v=2">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+Georgian:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -185,15 +185,57 @@
     // Contact form handler
     const form = document.getElementById('contact-form');
     const success = document.getElementById('form-success');
+    const submitBtn = document.getElementById('contact-submit');
 
     form.addEventListener('submit', (e) => {
       e.preventDefault();
-      // Front-end only — show success message
-      success.classList.add('show');
-      form.reset();
-      setTimeout(() => {
-        success.classList.remove('show');
-      }, 5000);
+      
+      // Update button state visually
+      const originalText = submitBtn.innerText;
+      submitBtn.innerText = 'Sending...';
+      submitBtn.disabled = true;
+      submitBtn.style.opacity = '0.7';
+
+      // Gather data
+      const formData = new FormData(form);
+      const data = Object.fromEntries(formData.entries());
+
+      // Send to FormSubmit via AJAX (No redirect)
+      fetch('https://formsubmit.co/ajax/trucklogisticsgeorgia@gmail.com', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify({
+          Name: data.name,
+          Email: data.email,
+          Phone: data.phone || 'Not provided',
+          Subject: data.subject || 'New Contact Request',
+          Message: data.message
+        })
+      })
+      .then(response => response.json())
+      .then(data => {
+        // Show success message
+        success.classList.add('show');
+        form.reset();
+      })
+      .catch(error => {
+        console.error('Email error:', error);
+        alert('There was a problem sending your message. Please try emailing us directly.');
+      })
+      .finally(() => {
+        // Restore button state
+        submitBtn.innerText = originalText;
+        submitBtn.disabled = false;
+        submitBtn.style.opacity = '1';
+
+        // Hide success message after 5 seconds
+        setTimeout(() => {
+          success.classList.remove('show');
+        }, 5000);
+      });
     });
   </script>
 </body>
